@@ -21,8 +21,8 @@ from app.views import near_view, string_view, cat_dog_view, lone_view
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("near-hundred/<int:n>/", near_view),
-    path("String-Splosion/<str:string>/", string_view),
-    path("cat-dog/<str:usr_input>/", cat_dog_view),
-    path("lone-sum/<int:x>/<int:y>/<int:z>/", lone_view),
+    path("warmup-1/near-hundred/<int:n>/", near_view),
+    path("warmup-2/string-splosion/<str:string>/", string_view),
+    path("string-2/cat-dog/<str:usr_input>/", cat_dog_view),
+    path("logic-2/lone-sum/<int:x>/<int:y>/<int:z>/", lone_view),
 ]
